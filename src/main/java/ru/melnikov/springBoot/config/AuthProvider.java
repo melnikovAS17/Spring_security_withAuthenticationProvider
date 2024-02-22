@@ -12,7 +12,8 @@ import org.springframework.stereotype.Component;
 import ru.melnikov.springBoot.services.PersonDetailsService;
 
 import java.util.Collections;
-
+//В соновном AuthenticationProvider нужен для настройки какой-то кастомной аутентификации
+//если мы не добавляем ничего "особенного" в процесс аутентификации, его можно не использовать
 @Component
 public class AuthProvider implements AuthenticationProvider {
 
